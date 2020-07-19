@@ -1,0 +1,124 @@
+.cell { background-color: green; transition: background-color 300ms  }
+        .cell:hover { background-color: blue }
+
+        .center {
+          margin: 0;
+          position: absolute;
+          top: 55%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+        .score{
+            width: 240px;
+            background-color: palegoldenrod;
+            height:75px;
+            position: absolute;
+            top: 30%;
+            right: 78%;
+            font-family: Courier;
+            font-style: bold;
+            font-size: 180%;
+            text-align: center;
+            border-block-end-style: inherit;
+            border-style: solid;
+            font-size: 350%;
+        }
+        
+        .statusBar {
+            width:100%;
+            border: 1px solid black;
+            background-color: #5b8858;
+            border-collapse: collapse;
+            height:55px;
+            color:white;
+            font-family: Courier;
+            font-style: bold;
+            }
+        .statusBar:hover{
+            width:100%;
+            border: 1px solid black;
+            background-color: #06A85F;
+            border-collapse: collapse;
+            height:55px;
+            
+        }
+        .statusBarTd
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .scoreBoardHighlight {
+            font-family: Courier;
+            font-style: bold;
+            position: absolute;
+            top: 23%;
+            right: 79%;
+        }
+        .restart{
+            position: absolute;
+            top: 30%;
+            right: 14%;
+            height: 16%;
+            width: 8%;
+        }
+        .gameOve{
+            position: absolute;
+            right:35%;
+            top:20%;
+            visibility:hidden;
+            height: 20%;
+            width: 30%;
+        }
+        .AverageAllGameTd{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .AverageAllGame{
+            width:100%;
+            border: 1px solid black;
+            background-color: #5b8858;
+            border-collapse: collapse;
+            height:55px;
+            color:white;
+            font-family: Courier;
+            font-style: bold;
+            position: absolute;
+            top:50%;
+            height: 20%;
+            width: 20%;
+            right: 76%;
+        }
+        .AverageAllGame:hover{
+            width:100%;
+            border: 1px solid black;
+            background-color:  #06A85F;
+            border-collapse: collapse;
+            height:55px;
+            color:white;
+            font-family: Courier;
+            font-style: bold;
+            position: absolute;
+            top:50%;
+            height: 20%;
+            width: 20%;
+            right: 76%;
+        }
+        .winnerPresenting{
+            font-family: Courier;
+            font-style: bold;
+            position: absolute;
+            top: 40%;
+            right: 35%;
+            visibility: hidden;
+            color:gold;
+            background-color:gray;
+        }
+        .quitFromGame{
+            position: absolute;
+            top: 55%;
+            right: 13%;
+            height: 16%;
+            width: 10%;
+        }
+        

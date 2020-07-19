@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>reversi</title>
+    <link href="reversi.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="createGame()">
+        <div class="center">
+            <table class="table" id="tbl">
+            </table>
+        </div>
+        <div id="statstics">
+                <table class="statusBar">
+                    <tr>
+                        <td class="statusBarTd"><div id="turnCount"></div></td>
+                        <td class="statusBarTd"><div id="gameDuration"></div></td>
+                        <td class="statusBarTd"><div id="only2disksCounter"></div></td>
+                        <td class="statusBarTd"><div id="currentTurn"></div></td>
+                        <td class="statusBarTd"><div id="P2Avg"></div></td>
+                        <td class="statusBarTd"><div id="P1Avg"></div></td>
+                    </tr>
+                </table>
+        </div>
+        <div class="scoreBoardHighlight"><h3>white&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; black</h3></div>
+        <div id="scoreBoard" class="score"></div>
+        <img src="restart.png" id="restartBtn" class="restart"></img>
+        <div id="allTimesStatistics">
+                <table class="AverageAllGame">
+                    <tr>
+                        <td class="AverageAllGameTd"><div id="whiteAverageAllGame">white's average move time in all games: 00:00:00</br></div></td>
+                    </tr>
+                    <tr>
+                        <td class="AverageAllGameTd"><div id="blackAverageAllGame">black's average move time in all games: 00:00:00</div></td>
+                    </tr>  
+                </table>  
+        </div>                    
+        <img src="gameover.png" id="gameOver" class="gameOve"></img>
+        <img src="Iquit.png" id="quitFromGame" class="quitFromGame"></img>
+        <h1 id=winnerPresenting class=winnerPresenting></h1>
+
+        <script src="reversi.js"></script> 
+</body>
+</html>
