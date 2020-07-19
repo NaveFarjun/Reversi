@@ -1,4 +1,4 @@
-whiteDisk="<img src='02.png' width='40px' height='40px'>"
+whiteDisk="<img src='whiteCircle.png' width='40px' height='40px'>"
 blackDisk="<img src='blackCircle.png' width='40px' height='40px'>"
 whiteDisk.onclick=0;
 blackDisk.onclick=0;
